@@ -56,8 +56,10 @@ Open this file in PLECS to explore and run the model. Review its parameters, ini
 
 ## Notes
 
-The Altium project references the external libraries `SamacSys.PcbLib` and `SamacSys.SchLib`. If these libraries are not included in the repository, they must be provided separately or their paths updated to work with them.
+The Altium project references the external libraries SamacSys.PcbLib and SamacSys.SchLib. If these libraries are not included in the repository, they must be provided separately or their paths updated.
 
 Altium history folders, backup files, and temporary logs are excluded to keep the repository focused on the design files.
 
 Before manufacturing the PCB, verify the design rules, connections, component footprints, and manufacturing outputs. Review the simulation models against the intended operating conditions.
+
+The firmware is intended for the experimental hardware described in the associated research work. Its configuration and protection parameters should be carefully reviewed before programming the microcontroller or operating the power converter.
