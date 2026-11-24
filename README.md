@@ -21,13 +21,11 @@ To explore or edit the design, open `PCB_Project.PrjPcb` in Altium Designer.
 
 ## PLECS Simulations
 
-Three simulation models are included to study different hybrid energy storage topologies:
+Simulation models are included to study the hybrid energy storage topology:
 
 - `HESS_ARTICLE_TOPOLOGY_1.plecs`
-- `HESS_ARTICLE_TOPOLOGY_2.plecs`
-- `HESS_ARTICLE_TOPOLOGY_3.plecs`
 
-Open each file in PLECS to explore and run the model. Review its parameters, initial conditions, and control signals before running a simulation.
+Open this file in PLECS to explore and run the model. Review its parameters, initial conditions, and control signals before running a simulation.
 
 ## Requirements
 
