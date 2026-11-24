@@ -47,6 +47,9 @@ Open this file in PLECS to explore and run the model. Review its parameters, ini
 
 ## Requirements
 
+- **MPLAB X IDE** to open, modify, and build the microcontroller firmware.
+- Compatible compiler and programming tools to compile and program the microcontroller.
+- **RAR extraction software** to extract the firmware project.
 - **Altium Designer** to open and edit the schematic and PCB files.
 - **PLECS** to open and run the simulation models.
 - A PDF reader to view the exported documentation.
