@@ -1,6 +1,24 @@
 # Hybrid Energy Storage System: Battery and Supercapacitor
 
-This repository contains the Altium Designer PCB design files and PLECS simulation models for a hybrid energy storage system combining a battery and a supercapacitor.
+This repository contains the firmware developed using MPLAB X IDE, the Altium Designer PCB design files, and the PLECS simulation model for a hybrid energy storage system (HESS) combining a battery and a supercapacitor at the cell level.
+
+## MPLAB IDE firmware
+
+The microcontroller firmware was developed using MPLAB X IDE and is provided in the following compressed archive:
+
+- `HIBRIDATION_SC_BATT.rar`
+
+The firmware implements the control and monitoring functions required for the experimental HESS prototype, including ADC measurements, PWM signal generation, operating-state management, and the control algorithms used to regulate the converter.
+
+To explore or modify the firmware:
+
+1. Extract the HIBRIDATION_SC_BATT.rar archive.
+2. Open MPLAB X IDE and load the extracted project.
+3. Review the microcontroller configuration, peripheral settings, and control parameters.
+4. Build the project using the appropriate compiler and device configuration.
+5. Program the microcontroller using a compatible programming or debugging interface.
+
+Before programming the hardware, verify the PWM configuration, ADC channel assignments, control parameters, and protection thresholds to ensure compatibility with the experimental prototype.
 
 ## PCB Design
 
